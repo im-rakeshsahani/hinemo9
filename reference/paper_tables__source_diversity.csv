@@ -1,0 +1,5 @@
+comments,distinct_videos,distinct_channels,distinct_genres,median_comments_per_video,max_comments_per_video,pct_from_top_10_videos,pct_from_top_10_channels,scope,videos,channels
+30436,1496.0,1014.0,39.0,13.0,152.0,4.01,10.91,overall,,
+11004,,,,,,,,English,710.0,511.0
+9039,,,,,,,,Hindi,1156.0,787.0
+10393,,,,,,,,Hinglish,902.0,621.0

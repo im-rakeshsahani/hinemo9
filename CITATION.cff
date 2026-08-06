@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "HinEmo-9: An Emotion Dataset for Code-Mixed Hindi–English Across Two Scripts"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Sahani
+    given-names: Rakesh
+    email: rakesh.sahani@rgu.ac.in
+    affiliation: "Department of Computer Science & Engineering, Rajiv Gandhi University, Doimukh, India"
+  - family-names: A
+    given-names: Firos
+    email: firos.a@rgu.ac.in
+    affiliation: "Department of Computer Science & Engineering, Rajiv Gandhi University, Doimukh, India"
+abstract: >-
+  HinEmo-9 is a dataset of 30,436 YouTube comments annotated for nine emotions
+  across three language varieties of Indian online discourse: English,
+  Devanagari Hindi, and romanized Hinglish. The taxonomy includes two
+  culturally grounded categories absent from existing emotion resources,
+  Devotion and Nostalgia. The dataset is released in two tiers with per-record
+  provenance: a 3,363-item core annotated independently by three annotators
+  (Fleiss kappa 0.87), and a 27,073-item expansion carrying model-derived
+  labels validated at 78.4% agreement against the core.
+keywords:
+  - emotion detection
+  - code-mixed text
+  - Hindi-English
+  - Hinglish
+  - Devanagari
+  - script-aware annotation
+  - low-resource NLP
+  - annotation methodology
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-08-06
+# Fill both after the Zenodo release:
+# doi: 10.5281/zenodo.XXXXXXX
+# repository-code: "https://github.com/<username>/hinemo9"

@@ -1,0 +1,136 @@
+model,emotion,language,n,f1,reliable
+indicbert,Anger,English,31,0.712 ± 0.025,yes
+indicbert,Anger,Hindi,30,0.560 ± 0.015,yes
+indicbert,Anger,Hinglish,35,0.594 ± 0.008,yes
+indicbert,Devotion,English,17,0.521 ± 0.039,INDICATIVE (n<30)
+indicbert,Devotion,Hindi,33,0.846 ± 0.024,yes
+indicbert,Devotion,Hinglish,31,0.786 ± 0.018,yes
+indicbert,Fear,English,31,0.780 ± 0.031,yes
+indicbert,Fear,Hindi,79,0.652 ± 0.030,yes
+indicbert,Fear,Hinglish,49,0.424 ± 0.027,yes
+indicbert,Joy,English,39,0.548 ± 0.032,yes
+indicbert,Joy,Hindi,38,0.490 ± 0.023,yes
+indicbert,Joy,Hinglish,38,0.489 ± 0.024,yes
+indicbert,Love,English,51,0.673 ± 0.045,yes
+indicbert,Love,Hindi,33,0.596 ± 0.022,yes
+indicbert,Love,Hinglish,41,0.694 ± 0.026,yes
+indicbert,Neutral,English,12,0.493 ± 0.047,INDICATIVE (n<30)
+indicbert,Neutral,Hindi,25,0.446 ± 0.047,INDICATIVE (n<30)
+indicbert,Neutral,Hinglish,26,0.395 ± 0.033,INDICATIVE (n<30)
+indicbert,Nostalgia,English,29,0.815 ± 0.013,INDICATIVE (n<30)
+indicbert,Nostalgia,Hindi,35,0.783 ± 0.040,yes
+indicbert,Nostalgia,Hinglish,25,0.703 ± 0.012,INDICATIVE (n<30)
+indicbert,Sadness,English,29,0.596 ± 0.064,INDICATIVE (n<30)
+indicbert,Sadness,Hindi,27,0.693 ± 0.029,INDICATIVE (n<30)
+indicbert,Sadness,Hinglish,26,0.581 ± 0.026,INDICATIVE (n<30)
+indicbert,Surprise,English,31,0.767 ± 0.044,yes
+indicbert,Surprise,Hindi,47,0.486 ± 0.047,yes
+indicbert,Surprise,Hinglish,122,0.682 ± 0.018,yes
+mbert,Anger,English,31,0.638 ± 0.058,yes
+mbert,Anger,Hindi,30,0.394 ± 0.015,yes
+mbert,Anger,Hinglish,35,0.615 ± 0.041,yes
+mbert,Devotion,English,17,0.462 ± 0.018,INDICATIVE (n<30)
+mbert,Devotion,Hindi,33,0.754 ± 0.011,yes
+mbert,Devotion,Hinglish,31,0.699 ± 0.020,yes
+mbert,Fear,English,31,0.713 ± 0.015,yes
+mbert,Fear,Hindi,79,0.495 ± 0.028,yes
+mbert,Fear,Hinglish,49,0.545 ± 0.041,yes
+mbert,Joy,English,39,0.467 ± 0.014,yes
+mbert,Joy,Hindi,38,0.246 ± 0.045,yes
+mbert,Joy,Hinglish,38,0.360 ± 0.038,yes
+mbert,Love,English,51,0.667 ± 0.016,yes
+mbert,Love,Hindi,33,0.359 ± 0.015,yes
+mbert,Love,Hinglish,41,0.500 ± 0.038,yes
+mbert,Neutral,English,12,0.401 ± 0.020,INDICATIVE (n<30)
+mbert,Neutral,Hindi,25,0.333 ± 0.050,INDICATIVE (n<30)
+mbert,Neutral,Hinglish,26,0.343 ± 0.026,INDICATIVE (n<30)
+mbert,Nostalgia,English,29,0.832 ± 0.028,INDICATIVE (n<30)
+mbert,Nostalgia,Hindi,35,0.759 ± 0.013,yes
+mbert,Nostalgia,Hinglish,25,0.645 ± 0.048,INDICATIVE (n<30)
+mbert,Sadness,English,29,0.464 ± 0.048,INDICATIVE (n<30)
+mbert,Sadness,Hindi,27,0.342 ± 0.023,INDICATIVE (n<30)
+mbert,Sadness,Hinglish,26,0.269 ± 0.017,INDICATIVE (n<30)
+mbert,Surprise,English,31,0.611 ± 0.053,yes
+mbert,Surprise,Hindi,47,0.184 ± 0.067,yes
+mbert,Surprise,Hinglish,122,0.366 ± 0.049,yes
+muril,Anger,English,31,0.595 ± 0.035,yes
+muril,Anger,Hindi,30,0.543 ± 0.044,yes
+muril,Anger,Hinglish,35,0.645 ± 0.028,yes
+muril,Devotion,English,17,0.552 ± 0.034,INDICATIVE (n<30)
+muril,Devotion,Hindi,33,0.763 ± 0.018,yes
+muril,Devotion,Hinglish,31,0.749 ± 0.041,yes
+muril,Fear,English,31,0.712 ± 0.012,yes
+muril,Fear,Hindi,79,0.660 ± 0.015,yes
+muril,Fear,Hinglish,49,0.517 ± 0.035,yes
+muril,Joy,English,39,0.448 ± 0.029,yes
+muril,Joy,Hindi,38,0.357 ± 0.039,yes
+muril,Joy,Hinglish,38,0.252 ± 0.037,yes
+muril,Love,English,51,0.737 ± 0.021,yes
+muril,Love,Hindi,33,0.446 ± 0.039,yes
+muril,Love,Hinglish,41,0.504 ± 0.024,yes
+muril,Neutral,English,12,0.392 ± 0.036,INDICATIVE (n<30)
+muril,Neutral,Hindi,25,0.416 ± 0.035,INDICATIVE (n<30)
+muril,Neutral,Hinglish,26,0.390 ± 0.026,INDICATIVE (n<30)
+muril,Nostalgia,English,29,0.841 ± 0.029,INDICATIVE (n<30)
+muril,Nostalgia,Hindi,35,0.797 ± 0.037,yes
+muril,Nostalgia,Hinglish,25,0.738 ± 0.019,INDICATIVE (n<30)
+muril,Sadness,English,29,0.593 ± 0.015,INDICATIVE (n<30)
+muril,Sadness,Hindi,27,0.459 ± 0.028,INDICATIVE (n<30)
+muril,Sadness,Hinglish,26,0.348 ± 0.036,INDICATIVE (n<30)
+muril,Surprise,English,31,0.667 ± 0.010,yes
+muril,Surprise,Hindi,47,0.328 ± 0.052,yes
+muril,Surprise,Hinglish,122,0.504 ± 0.050,yes
+muril_hybrid,Anger,English,31,0.570 ± 0.023,yes
+muril_hybrid,Anger,Hindi,30,0.520 ± 0.042,yes
+muril_hybrid,Anger,Hinglish,35,0.605 ± 0.061,yes
+muril_hybrid,Devotion,English,17,0.545 ± 0.027,INDICATIVE (n<30)
+muril_hybrid,Devotion,Hindi,33,0.727 ± 0.027,yes
+muril_hybrid,Devotion,Hinglish,31,0.732 ± 0.012,yes
+muril_hybrid,Fear,English,31,0.707 ± 0.026,yes
+muril_hybrid,Fear,Hindi,79,0.658 ± 0.037,yes
+muril_hybrid,Fear,Hinglish,49,0.490 ± 0.016,yes
+muril_hybrid,Joy,English,39,0.479 ± 0.048,yes
+muril_hybrid,Joy,Hindi,38,0.363 ± 0.030,yes
+muril_hybrid,Joy,Hinglish,38,0.295 ± 0.015,yes
+muril_hybrid,Love,English,51,0.669 ± 0.025,yes
+muril_hybrid,Love,Hindi,33,0.460 ± 0.054,yes
+muril_hybrid,Love,Hinglish,41,0.569 ± 0.041,yes
+muril_hybrid,Neutral,English,12,0.371 ± 0.048,INDICATIVE (n<30)
+muril_hybrid,Neutral,Hindi,25,0.429 ± 0.034,INDICATIVE (n<30)
+muril_hybrid,Neutral,Hinglish,26,0.356 ± 0.046,INDICATIVE (n<30)
+muril_hybrid,Nostalgia,English,29,0.837 ± 0.014,INDICATIVE (n<30)
+muril_hybrid,Nostalgia,Hindi,35,0.838 ± 0.033,yes
+muril_hybrid,Nostalgia,Hinglish,25,0.703 ± 0.045,INDICATIVE (n<30)
+muril_hybrid,Sadness,English,29,0.505 ± 0.020,INDICATIVE (n<30)
+muril_hybrid,Sadness,Hindi,27,0.444 ± 0.025,INDICATIVE (n<30)
+muril_hybrid,Sadness,Hinglish,26,0.330 ± 0.094,INDICATIVE (n<30)
+muril_hybrid,Surprise,English,31,0.618 ± 0.016,yes
+muril_hybrid,Surprise,Hindi,47,0.394 ± 0.051,yes
+muril_hybrid,Surprise,Hinglish,122,0.513 ± 0.058,yes
+xlmr,Anger,English,31,0.650 ± 0.011,yes
+xlmr,Anger,Hindi,30,0.508 ± 0.033,yes
+xlmr,Anger,Hinglish,35,0.639 ± 0.059,yes
+xlmr,Devotion,English,17,0.555 ± 0.026,INDICATIVE (n<30)
+xlmr,Devotion,Hindi,33,0.778 ± 0.025,yes
+xlmr,Devotion,Hinglish,31,0.798 ± 0.052,yes
+xlmr,Fear,English,31,0.687 ± 0.028,yes
+xlmr,Fear,Hindi,79,0.617 ± 0.029,yes
+xlmr,Fear,Hinglish,49,0.557 ± 0.019,yes
+xlmr,Joy,English,39,0.530 ± 0.036,yes
+xlmr,Joy,Hindi,38,0.550 ± 0.031,yes
+xlmr,Joy,Hinglish,38,0.557 ± 0.030,yes
+xlmr,Love,English,51,0.660 ± 0.039,yes
+xlmr,Love,Hindi,33,0.606 ± 0.056,yes
+xlmr,Love,Hinglish,41,0.750 ± 0.021,yes
+xlmr,Neutral,English,12,0.357 ± 0.062,INDICATIVE (n<30)
+xlmr,Neutral,Hindi,25,0.450 ± 0.044,INDICATIVE (n<30)
+xlmr,Neutral,Hinglish,26,0.423 ± 0.024,INDICATIVE (n<30)
+xlmr,Nostalgia,English,29,0.834 ± 0.014,INDICATIVE (n<30)
+xlmr,Nostalgia,Hindi,35,0.858 ± 0.052,yes
+xlmr,Nostalgia,Hinglish,25,0.665 ± 0.037,INDICATIVE (n<30)
+xlmr,Sadness,English,29,0.530 ± 0.046,INDICATIVE (n<30)
+xlmr,Sadness,Hindi,27,0.645 ± 0.022,INDICATIVE (n<30)
+xlmr,Sadness,Hinglish,26,0.597 ± 0.049,INDICATIVE (n<30)
+xlmr,Surprise,English,31,0.804 ± 0.037,yes
+xlmr,Surprise,Hindi,47,0.567 ± 0.058,yes
+xlmr,Surprise,Hinglish,122,0.740 ± 0.018,yes

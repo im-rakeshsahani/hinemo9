@@ -1,0 +1,10 @@
+,Love,Joy,Anger,Sadness,Fear,Surprise,Nostalgia,Devotion,Neutral
+Love,560,89,1,15,2,0,4,20,5
+Joy,89,528,4,3,4,14,1,10,13
+Anger,1,4,306,14,2,2,4,0,3
+Sadness,15,3,14,262,3,8,13,1,7
+Fear,2,4,2,3,12,2,0,0,3
+Surprise,0,14,2,8,2,44,0,0,2
+Nostalgia,4,1,4,13,0,0,298,7,15
+Devotion,20,10,0,1,0,0,7,236,2
+Neutral,5,13,3,7,3,2,15,2,214

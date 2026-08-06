@@ -1,0 +1,11 @@
+model_a,model_b,mean_a,mean_b,diff,t_stat,p_ttest,p_wilcoxon,significant_05
+xlmr,mbert,0.6298,0.4956,0.1342,18.016,0.0031,0.25,yes
+xlmr,indicbert,0.6298,0.624,0.0058,0.856,0.4822,0.75,no
+xlmr,muril,0.6298,0.5537,0.0761,15.106,0.0044,0.25,yes
+xlmr,muril_hybrid,0.6298,0.5451,0.0847,7.555,0.0171,0.25,yes
+mbert,indicbert,0.4956,0.624,-0.1283,-39.055,0.0007,0.25,yes
+mbert,muril,0.4956,0.5537,-0.0581,-8.527,0.0135,0.25,yes
+mbert,muril_hybrid,0.4956,0.5451,-0.0494,-10.421,0.0091,0.25,yes
+indicbert,muril,0.624,0.5537,0.0703,8.368,0.014,0.25,yes
+indicbert,muril_hybrid,0.624,0.5451,0.0789,9.956,0.0099,0.25,yes
+muril,muril_hybrid,0.5537,0.5451,0.0086,1.028,0.4121,0.5,no

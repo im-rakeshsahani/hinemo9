@@ -1,0 +1,5 @@
+scope,items,judgements_used,skipped,macro_f1,accuracy
+all,1010,2719,311,0.9421,0.9467
+English,270,704,106,0.9332,0.929
+Hindi,347,927,114,0.9354,0.945
+Hinglish,393,1088,91,0.9498,0.9596

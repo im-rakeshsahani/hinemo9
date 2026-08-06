@@ -1,0 +1,4 @@
+scope,items,judgements_used,judgements_skipped_no_reference,human_macro_f1,human_accuracy
+test,1010,2719,311,0.9421,0.9467
+dev,1009,2653,374,0.9305,0.934
+all_gold,3363,8964,1125,0.9374,0.9411
