@@ -30,8 +30,7 @@ keywords:
   - low-resource NLP
   - annotation methodology
 license: CC-BY-4.0
-version: 1.0.0
-date-released: 2026-08-06
-# Fill both after the Zenodo release:
-# doi: 10.5281/zenodo.XXXXXXX
-# repository-code: "https://github.com/<username>/hinemo9"
+version: 1.0.1
+date-released: 2026-08-21
+doi: 10.5281/zenodo.22041924
+repository-code: "https://github.com/im-rakeshsahani/hinemo9"

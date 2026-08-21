@@ -253,7 +253,10 @@ this work and observe those platform terms independently.
 
 ## Repository
 
-> **TODO** — repository URL and archival DOI.
+https://github.com/im-rakeshsahani/hinemo9
+
+Archived at https://doi.org/10.5281/zenodo.22041924 (concept DOI, always
+resolves to the latest version).
 
 ## Contact
 
