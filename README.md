@@ -45,15 +45,8 @@ print(train[0])
 #  'language_label': 'Hindi', 'label_source': 'llm', ...}
 ```
 
-With Hugging Face `datasets`:
-
-```python
-from datasets import load_dataset
-ds = load_dataset("<username>/hinemo9")
-```
-
-Splits are fixed and disjoint by `id`. Verify integrity with
-`checksums.txt`.
+Splits are fixed and disjoint by `id`. Verify integrity against
+`data/checksums.txt`.
 
 ---
 
@@ -66,8 +59,9 @@ Splits are fixed and disjoint by `id`. Verify integrity with
 | `data/test.jsonl` | 1,010 | gold, held out |
 | `data/gold.jsonl` | 3,363 | all gold items, with each rater's label |
 | `data/full.jsonl` | 30,436 | the complete curated set |
-| `reference/` | — | per-cell metrics, confusion matrices, agreement report |
+| `reference/` | — | per-cell metrics, confusion matrices, agreement reports |
 | `docs/annotation_guidelines.md` | — | the document annotators worked from |
+| `docs/dataset_card.md` | — | full provenance, construction and limitations |
 | `code/` | — | collection, processing, training, evaluation, figures |
 
 ### Field schema
@@ -152,8 +146,9 @@ Macro-F1 on the gold test set, mean ± std over three seeds:
 \* Leave-one-annotator-out on judgements where the other two agreed; an upper
 bound, since ambiguous items are excluded.
 
-Reproduce with `code/train_model.py` and `code/aggregate_results.py` — see
-`code/README.md`.
+To reproduce, run `code/train_model.py` for each encoder across seeds 42, 43
+and 44, then `code/aggregate_results.py`. Hyperparameters are documented in
+the paper's reproducibility appendix.
 
 ---
 
@@ -169,6 +164,8 @@ Reproduce with `code/train_model.py` and `code/aggregate_results.py` — see
    one label; the composition is not reported.
 5. Single platform (YouTube), genre-seeded sampling, three annotators of
    shared regional background.
+
+Full detail in `docs/dataset_card.md`.
 
 ---
 
@@ -210,12 +207,13 @@ terms of the platform on which it was posted.
 }
 ```
 
-Update on acceptance.
+This entry will be updated with full publication details once the paper
+appears.
 
 ---
 
 ## Contact
 
-Rakesh Sahani — rakesh.sahani@rgu.ac.in
-Department of Computer Science & Engineering, Rajiv Gandhi University,
-Doimukh, India–791112
+Rakesh Sahani — rakesh.sahani@rgu.ac.in  
+Department of Computer Science & Engineering  
+Rajiv Gandhi University, Doimukh, India–791112
