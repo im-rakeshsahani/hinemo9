@@ -6,7 +6,7 @@ An emotion dataset for code-mixed Hindi–English across two scripts.
 varieties: English, Devanagari Hindi, and romanized Hinglish.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-<!-- Add after the Zenodo release: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22041924.svg)](https://doi.org/10.5281/zenodo.22041924)
 
 ---
 
